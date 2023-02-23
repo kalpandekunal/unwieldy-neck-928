@@ -40,7 +40,7 @@
   }
   .hover:hover,.download_child:hover,.social_child:hover,.options:hover{
     cursor: pointer;
-    color: #84c225;
+    color: teal;
   }
   
   @media screen and (max-width: 950px) {

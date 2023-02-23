@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <Flex as="nav" alignItems="center" justify="space-between" wrap="wrap" p="6" bg="black" color="white">
       <Flex alignItems="center" mr="5">
-        <Image src="unwieldy-neck-928\project\src\Component\SHOP MART.png" alt="Logo" boxSize="40px" maxW="40px" />
+        <Image src="/slogo.png" alt="Logo" boxSize="100px" marginLeft="60px" maxW="200px" />
         {/* <Box ml="3">My Site</Box> */}
       </Flex>
       <Box display={{ base: 'none', md: 'block', color:"white" }}>

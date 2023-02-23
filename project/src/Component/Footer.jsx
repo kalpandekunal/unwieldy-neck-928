@@ -1,128 +1,91 @@
 import { Box, Image, Text } from "@chakra-ui/react";
-// import facebook from "../../assets/facebook.png";
-// import instagram from "../../assets/instagram.png";
-// import painter from "../../assets/painter.png";
-// import twitter from "../../assets/twitter.png";
-// import Apple from "../../assets/Apple-App-store-icon.png";
-// import A_Express from "../../assets/american-express.png";
-// import cod from "../../assets/cod.png"
-// import mastercard from "../../assets/mastercard.png";
-// import rupay from "../../assets/rupay.png";
-// import visa from "../../assets/visa.png";
-// import paytm from "../../assets/paytm.png"
+
 import "./Footer.css";
 const Footer = () => {
   return (
     <div>
       <Box>
         <Box className="about-flex">
-          <Box className="bigbasket">
-            <Text color="#84c225">bigbasket</Text>
-            <Text className="hover">About US</Text>
-            <Text className="hover">In News</Text>
-            <Text className="hover">Green bigbasket</Text>
-            <Text className="hover">Privacy Pllicy</Text>
-            <Text className="hover">Affilaiate</Text>
-            <Text className="hover">Terms and Conditions</Text>
-            <Text className="hover">Careers At bigbasket</Text>
-            <Text className="hover">bb Instant</Text>
-            <Text className="hover">bb Daily</Text>
-            <Text className="hover">bb Blog</Text>
-            <Text className="hover">bbnow</Text>
+          <Box  className="bigbasket">
+            <Text fontSize={18} color="#000000">Help</Text>
+            <Text className="hover">Order atatus</Text>
+            <Text className="hover">About us</Text>
+            <Text className="hover">Contact us</Text>
+            <Text className="hover">PWarranty</Text>
+            <Text className="hover">FAQs</Text>
+            <Text className="hover">Sitemap</Text>
+            
           </Box>
 
           <Box className="help">
-            <Text color="#84c225">Help</Text>
-            <Text className="hover">FAQs</Text>
-            <Text className="hover">Contact Us</Text>
-            <Text className="hover">bb Wallet FAQs</Text>
-            <Text className="hover">bb Wallet T&Cs</Text>
-            <Text className="hover">Vendor Connect</Text>
+            <Text fontSize={18} color="#000000">Support</Text>
+            <Text className="hover">WhatGeek</Text>
+            <Text className="hover">Shipping guide</Text>
+            <Text className="hover">Payment information</Text>
+            <Text className="hover">Wholesale</Text>
+            <Text className="hover">Blog</Text>
+            <Text className="hover">Affiliates</Text>
+
           </Box>
 
           <Box className="download_app">
-            <Text color="#84c225" mb="10px">
-              Downloade Our App
+            <Text fontSize={18} color="#000000" mb="10px">
+              Download The App
             </Text>
-            <Box className="download_child">
+            <Box className="download_child" gap="10px">
               <Image
                 w="100%"
                 h="100%"
                 mb="10px"
-                src="https://www.bbassets.com/static/v2616/custPage/build/content/img/Google-App-store-icon.png"
+                src="https://content1.geekbuying.com/V1.4/en/images/index_images/android_app.png"
                 alt="google play store"
               />
-              <Image w="100%" h="100%" src="{Apple}" alt="apple app store" />
+              <Image w="100%" h="100%" src="https://content1.geekbuying.com/V1.4/en/images/index_images/app_store.jpg" alt="apple app store" />
+              <Image w="100%" h="100%" src="https://content1.geekbuying.com/V1.4/en/images/index_images/google_play.jpg" alt="play store" />
+              <Image w="100%" h="100%" src="https://content1.geekbuying.com/V1.4/en/images/index_images/gallery.jpg" alt="Geekbuying app store" />
+
             </Box>
           </Box>
 
           <Box className="social-media">
-            <Text color="#84c225" mb="10px">
-              Get Social With Us
+            <Text fontSize={18} color="#000000" mb="10px">
+              Connect With Us
             </Text>
             <Box className="social_child">
-              <Image width={10} height={10} src="" alt="facebook" />
-              <Image width={10} height={10} src="" alt="painter" />
+              <Image width={200} height={20} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStTTnp6oHCQm6jqEB4AKvm7fF1kNUFrxkhVw&usqp=CAU" alt="facebook" />
+              {/* <Image width={10} height={10} src="" alt="painter" />
               <Image width={10} height={10} src="{twitter}" alt="twitter" />
-              <Image width={10} height={10} src="{instagram}" alt="instagram" />
+              <Image width={10} height={10} src="{instagram}" alt="instagram" /> */}
             </Box>
           </Box>
         </Box>
 
         <Box className="about-flex-2">
           <Box className="P-category">
-            <Text fontSize={16} color="#84c225">POPULAR CATEGORIES:</Text>
+            <Text fontSize={18} color="#000000">POPULAR CATEGORIES:</Text>
             <Text>
-              Sunflower Oils, Wheat Atta, Ghee, Milk, Health Drinks, Flakes,
-              Organic F&V, Namkeen, Eggs, Floor Cleaners, Other Juices, Leafy
-              Vegetables, Frozen Veg Food, Diapers & Wipes,
+            ENGWE sculpfun laserpecker FOSSiBOT Power Station powkiddy Roborock Geekbuying Coupon MINISFORUM led projector eleglide mini laptop JJRC electric scooter Mite Cleaner oukitel ado ebike tablet Creality Ender-3 V2 Laser Cutters
             </Text>
           </Box>
 
-          <Box className="P-brand">
-            <Text fontSize={16} color="#84c225">POPULAR BRANDS:</Text>
-            <Text>
-              Amul, Nescafe , MTR, RED BULL , elite cake, Pediasure, Yummiez,
-              Yera, Yakult, Britannia, Wow Momo, Fortune , Haldirams , Ferrero,
-              Lays, Patanjali, McCain, kwality walls, Cadbury Dairy Milk,
-              Pedigree,
-            </Text>
-          </Box>
+          
 
-          <Box className="P-serve">
-            <Text fontSize={16} color="#84c225">CITIES WE SERVE:</Text>
-            <Text>
-              Bangalore, Hyderabad, Mumbai, Pune, Chennai, Delhi, Mysore,
-              Madurai, Coimbatore, Vijayawada-Guntur, Kolkata,
-              Ahmedabad-Gandhinagar, Nashik Business, Lucknow-Kanpur, Gurgaon,
-              Vadodara, Visakhapatnam, Surat, Nagpur, Patna, Indore, Chandigarh
-              Tricity, Jaipur, Bhopal, Noida-Ghaziabad, Kochi, Krishna District,
-              Bhubaneshwar-Cuttack, Guwahati, Renigunta, Hubli, Davanagere,
-              Trichy, Amravati, Raipur, Rajkot, Gwalior, Bareilly, Allahabad,
-              Hyderabad Rural, Bangalore Rural, Chennai Rural, Vizag Rural,
-              Lucknow Rural, Noida Rural, Ahmedabad Rural, Bhopal Rural,
-              Bhubaneswar Rural, Coimbatore Rural, Chandigarh Rural, Gurugram
-              Rural, Guwahati Rural, Indore Rural, Kochi Rural, Kolkata Rural,
-              Mumbai Rural, Mysore Rural, Nagpur Rural, Patna Rural, Pune Rural,
-              Surat Rural, Vadodara Rural, Jaipur Rural, Ranchi, Nashik, Agra,
-              Kozhikode,{" "}
-            </Text>
-          </Box>
+          
           <Box className="P-options">
-            <Text fontSize={16} color="#84c225">PAYMENT OPTIONS:</Text>
+            <Text fontSize={18}  color="#000000">PAYMENT OPTIONS:</Text>
             <Box className="options">
-              <Image w={10} h={10} src="{cod}" alt="icons" />
-              <Image w={10} h={10} src="{visa}" alt="icons" />
-              <Image w={10} h={10} src="{rupay}" alt="icons" />
-              <Image w={10} h={10} src="{paytm}" alt="icons" />
-              <Image w={10} h={10} src="{mastercard}" alt="icons" />
-              <Image w={10} h={10} src="{A_Express}" alt="icons" />
+              <Image w={100} h={10} src="https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404__480.png" alt="icons" />
+              <Image w={100} h={10} src="https://cdn.pixabay.com/photo/2017/08/02/11/09/electronic-payments-2570939__480.jpg" alt="icons" />
+              <Image w={100} h={10} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yxYld95f3DhTbcjkzffPVZrVTfiiK1Gl2A&usqp=CAU" alt="icons" />
+              <Image w={100} h={10} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHhmveSDHQhWGJ5jN7AtR-nbLTYDbrOv9A4A&usqp=CAU" alt="icons" />
+              <Image w={100} h={10} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPcCBQZwH1tGTJD2zw8Hh47Hqz8NDQeqqjQ&usqp=CAU" alt="icons" />
+              <Image w={100} h={10} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDOxPk6rxJ0tVAcDZJ3aZ4ymqpnPvdTaqObw&usqp=CAU" alt="icons" />
             </Box>
           </Box>
         </Box>
 
         <Box w="100%" bg="#eaeaea" h="30px" >
-          <Text w="82%" margin="auto" textAlign="center" alignItems="center" fontSize={13} color="#777474" >Copyright © 2021-2023 Supermarket Grocery Supplies Pvt Ltd</Text>
+          <Text w="82%" margin="auto" textAlign="center" alignItems="center" fontSize={13} color="#777474" >Copyright © 2012-2023 Geekbuying.com. All rights reserved.</Text>
         </Box>
       </Box>
     </div>
