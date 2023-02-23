@@ -1,14 +1,10 @@
 import React from 'react';
 import { Box, Flex, Image, Input, InputGroup, InputRightElement, Button, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react';
 import { FaSearch } from 'react-icons/fa';
-//import {useHistory} from "react-router-dom";
+
 
 function Navigation() {
-  // const history = useHistory();
-
-  // const handleSignInClick = () => {
-  //   history.push('/signin');
-  // }
+  
 
   return (
     <Flex as="nav" alignItems="center" justify="space-between" wrap="wrap" p="6" bg="black" color="white">
