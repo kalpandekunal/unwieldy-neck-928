@@ -34,12 +34,15 @@ function AllProductDetail() {
     //const [loading, setLoading] = useState(true);
     const [btn,setBtn] = useState(false);
   
-    const handleAddToCart = ()=>{
-      setBtn("ITEM ADDED TO CART")
-       localStorage.setItem("cartProduct",JSON.stringify(cartData));
-       cartData.push(product);
-    }
+    // const handleAddToCart = ()=>{
+    //   setBtn("ITEM ADDED TO CART")
+    //    localStorage.setItem("cartProduct",JSON.stringify(cartData));
+    //    cartData.push(product);
+    // }
     
+    const handleAddToCart = ()=>{
+
+    }
   
     useEffect(()=>{
       //setLoading(true);
