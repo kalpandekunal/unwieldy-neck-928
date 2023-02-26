@@ -1,6 +1,6 @@
 import {Box,Button,Center,Img,SimpleGrid,Text,VStack,Select,Spinner,Grid,GridItem,Image} from "@chakra-ui/react";
 import axios from "axios";
-import {useEffect,useReducer} from "react";;
+import {useEffect,useReducer} from "react";
 import {Link} from "react-router-dom";
 
 

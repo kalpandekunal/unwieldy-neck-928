@@ -48,7 +48,7 @@ function Home(){
                 </Grid>
         </Box>
 
-        <Box maxW="95%" margin="auto" marginTop="30px">
+        <Box maxW="95%" margin="auto" marginTop="30px" marginBottom="20px">
         <Text fontSize="20px" marginBottom="20px">New For You</Text>
             <Grid templateColumns="repeat(4,1fr)" gap="10px">
                 <GridItem border="1px solid #E2E8F0">

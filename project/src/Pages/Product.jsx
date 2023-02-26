@@ -61,7 +61,7 @@ function Product(){
 
                 {
                     data.map((el)=> (
-                        <GridItem key={el.id} textAlign="center" border="1px solid red" >
+                        <GridItem key={el.id} textAlign="center">
                             <Link to={"/product"}>
                             <Image maxW="100%"src={el.image}/>
                             </Link>
